@@ -86,8 +86,8 @@ main{
     .hero{
         display: grid;
         place-items: center;
-        min-height: 75vh;
-        width: 89vw;
+        min-height: 70vh;
+        width: 90vw;
         background-color: #fff;
         border-radius: 45px;
     }
