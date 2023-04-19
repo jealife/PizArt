@@ -8,7 +8,7 @@
 }
 
 body {
-    background: #f4faff;
+    background: #edfaff;
     min-width: 300px;
 }
 main{
@@ -57,12 +57,14 @@ main{
 }
 
 .hero{
+    margin-top: 2rem;
     display: grid;
     place-items: center;
-    min-height: 90vh;
+    min-height: 80vh;
     width: 80vw;
     background-color: #fff;
     border-radius: 25px;
+    padding: 0 1rem;
 }
 @media only screen and (max-width: 900px){
     .hero-content h1{
@@ -84,7 +86,7 @@ main{
         border-radius: 45px;
     }
     .hero-content{
-        padding: 0 0.5rem;
+        padding: 0 1rem;
     }
 
 }

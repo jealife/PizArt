@@ -10,8 +10,8 @@ header {
 }
 
 nav {
-    margin-top: 2rem;
-    background: #f5f9fa;
+    margin-top: 1rem;
+    background: #ffffff;
     transition: .5s;
     position: fixed;
     width: 100%;
@@ -73,7 +73,7 @@ nav .link-container>a:active {
 .hamburger {
     justify-content: center;
     width: 20px;
-    height: 20px;
+    height: 25px;
     cursor: pointer;
     border: none;
     display: flex;
@@ -161,10 +161,10 @@ nav .link-container>a:active {
     .hamburger span {
         display: block;
         width: 100%;
-        height: 3px;
+        height: 4px;
+        border-radius: 50px;
         background: #3c5163;
         position: absolute;
-        margin-top: 3px;
         pointer-events: none;
         transition: opacity 0.3s 0.15s ease-out;
     }
