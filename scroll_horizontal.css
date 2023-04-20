@@ -1,0 +1,69 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 301px;
+    padding: 0.5rem 0.9rem 1.5rem 0.9rem;
+    border-radius: 15px;
+    position: relative;
+    transition: .5s;
+}
+
+.card:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+.card img {
+    align-self: center;
+    height: 280px;
+    width: 285px;
+    object-fit: cover;
+    border-radius: 14px;
+
+}
+
+.info-container {
+    display: inline-block;
+
+}
+
+
+.scroll-container {
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.scroll {
+    
+    /* height: 75vh; */
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding: 3.5em 2em;
+}
+
+
+.scroll::-webkit-scrollbar {
+    height: 0.6rem;
+    background-color: transparent;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+    background: #2743661f;
+}
+
+@media only screen and (max-width: 760px) {
+    .scroll {
+        overflow: hidden;
+        /* width:100vw ; */
+        flex-wrap: nowrap;
+        gap: 25px;
+        overflow: auto;
+        cursor: grab;
+    }
+}
