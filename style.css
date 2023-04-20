@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,500;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap');
-*{
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -13,30 +14,35 @@ body {
     background: #eefaff;
     min-width: 300px;
 }
-main{
-    
+
+main {
+
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-   
+
 }
-h1,h2{
-    color:#ff6b22;
+
+h1,
+h2 {
+    color: #ff6b22;
 }
-h1{
+
+h1 {
     margin-top: 1.5rem;
-    color:#ff6b22;
+    color: #ff6b22;
     font-size: 4rem;
 }
+
 .hero-content {
     margin-top: 1rem;
-    color:#315475;
+    color: #315475;
     font-size: 1.2rem;
 }
 
-.hero-content .btn{
+.hero-content .btn {
     margin-top: 1rem;
     align-self: center;
     padding: 0.9rem;
@@ -48,21 +54,24 @@ h1{
     font-size: 1.2rem;
     transition: .3s ease-in-out;
 }
-.hero-content .btn:hover{
-    
+
+.hero-content .btn:hover {
+
     background-color: #fe6d25;
     box-shadow: #ff550086 0px 5px 20px;
     border-radius: 50px;
     width: 150px;
-    
+
 }
-.hero-content{
+
+.hero-content {
     text-align: center;
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
-.hero-container{
+
+.hero-container {
     min-height: 100vh;
     width: 100%;
     display: flex;
@@ -75,50 +84,58 @@ h1{
     background-repeat: no-repeat;
     background-position: center;
 }
-.container{
+
+.container {
     width: 87vw;
     background-color: #ffffffe0;
     backdrop-filter: blur(20px);
     border-radius: 25px;
     padding: 0 1.2rem;
 }
-.hero{
+
+.hero {
     margin-top: 5rem;
     display: grid;
     place-items: center;
-    min-height: 82vh;
-   
+    min-height: 67vh;
+
 }
-.about{
+
+.about {
     margin: 5rem 0;
     display: grid;
     place-items: center;
     padding: 2rem 0;
-    
+
 }
+
 .about-container {
     width: 65vw;
-    background-color: #ffffffe0;
+    background-color: #fffffffc;
     backdrop-filter: blur(20px);
     border-radius: 25px;
     padding: 0 1.2rem;
 }
-.about-container .about-tilte{
+
+.about-container .about-tilte {
     display: block;
     text-align: center;
     padding: 1rem;
 }
-.about-content{
+
+.about-content {
     display: flex;
     padding: 1.5rem;
 }
 
-.about-tilte h2{
+.about-tilte h2 {
     font-size: 2rem;
 }
-.flex-one{
+
+.flex-one {
     flex: 1;
 }
+
 .about-content .image-about {
     width: 100%;
     display: flex;
@@ -126,13 +143,15 @@ h1{
     align-items: center;
     padding: 0 2rem;
 }
-.about-content .image-about img{
+
+.about-content .image-about img {
     border-radius: 12px;
     width: 350px;
     height: 300px;
     object-fit: cover;
 }
-.info-about{
+
+.info-about {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -142,17 +161,19 @@ h1{
 
 /*  ----------------- Responsive  ------------------- */
 
-@media only screen and (max-width: 900px){
-    .hero-content h1{
+@media only screen and (max-width: 900px) {
+    .hero-content h1 {
         margin-top: 1rem;
         font-size: 2.5rem;
     }
+
     .hero-content {
         margin-top: 1rem;
-        color:#315475;
+        color: #315475;
         font-size: 1rem;
     }
-    .hero{
+
+    .hero {
         margin-top: 1rem;
         display: grid;
         place-items: center;
@@ -161,26 +182,32 @@ h1{
         background-color: #ffffffd7;
         border-radius: 45px;
     }
-    .about-content .image-about img{
+
+    .about-content .image-about img {
         width: 100%;
     }
-    .hero-content{
+
+    .hero-content {
         padding: 0 1rem;
-       
+
     }
-    .about-content{
+
+    .about-content {
         flex-direction: column;
     }
-    .info-about{
+
+    .info-about {
         margin-top: 1.2rem;
 
     }
+
     .about-content .image-about {
-        
+
         padding: 1rem 0;
     }
 
     .about-container {
+        border-radius: 65px 65px 25px  25px;
         width: 100%;
         margin-top: -200px;
         box-shadow: rgba(114, 162, 191, 0.25) 0px 50px 100px -20px, #0000004d 0px 30px 60px -30px;
