@@ -5,10 +5,12 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     /* transition: .5s; */
+    text-decoration: none;
+
 }
 
 body {
-    background: #edfaff;
+    background: #e3f7ff;
     min-width: 300px;
 }
 main{
@@ -29,22 +31,21 @@ main{
     font-size: 1.2rem;
 }
 
-.hero-content button{
+.hero-content .btn{
     margin-top: 1rem;
     align-self: center;
-    border: none;
     padding: 0.9rem;
     border-radius: 50px;
-    width: 200px;
+    width: 180px;
     cursor: pointer;
     background-color: #ff8a50;
     color: #fff;
     font-size: 1.2rem;
-    transition: 0.5s ease-out;
+    transition: .3s ease-in-out;
 }
-.hero-content button:hover{
+.hero-content .btn:hover{
     
-    background-color: #ff5500;
+    background-color: #fe6d25;
     box-shadow: #ff550086 0px 5px 20px;
     border-radius: 50px;
     width: 150px;
