@@ -12,7 +12,8 @@
 
 body {
     background: #eefaff;
-    min-width: 300px;
+    /* min-width: 300px; */
+    scroll-behavior: smooth;
 }
 
 main {
@@ -57,8 +58,8 @@ h1 {
 
 .hero-content .btn:hover {
 
-    background-color: #fe6d25;
-    box-shadow: #ff550086 0px 5px 20px;
+    background-color: #ff671c;
+    box-shadow: #ffa476e7 0px 5px 20px;
     border-radius: 50px;
     width: 150px;
 
@@ -117,6 +118,7 @@ h1 {
     backdrop-filter: blur(20px);
     border-radius: 25px;
     padding: 0 1.2rem;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
 
 .about-container .about-tilte {
@@ -139,18 +141,19 @@ h1 {
 }
 
 .about-content .image-about {
+    position: relative;
     width: 100%;
     display: flex;
     justify-items: center;
     align-items: center;
-    padding: 0 2rem;
+    /* padding: 0 2rem; */
 }
 
 .about-content .image-about img {
     border-radius: 12px;
-    width: 350px;
-    height: 300px;
-    object-fit: cover;
+    width: 500px;
+    transform: rotate(45deg);
+
 }
 
 .info-about {
@@ -203,7 +206,7 @@ body::-webkit-scrollbar-thumb {
     }
 
     .about-content .image-about img {
-        width: 100%;
+        width: 95%;
     }
 
     .hero-content {
@@ -221,14 +224,20 @@ body::-webkit-scrollbar-thumb {
     }
 
     .about-content .image-about {
-
         padding: 1rem 0;
     }
 
     .about-container {
+        padding: 1rem 0;
         width: 100%;
         margin-top: -100px;
         box-shadow: rgba(163, 212, 220, 0.25) 0px 50px 100px -20px, #ccf7ff 0px 30px 60px -30px;
+    }
+    .about-content .image-about img {
+        margin-top: -60px;
+        border-radius: 12px;
+        transform: rotate(-2deg);
+    
     }
 
 
