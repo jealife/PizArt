@@ -12,7 +12,7 @@ header {
 
 nav {
     margin-top: 1rem;
-    background: #ffffffd0;
+    background: #ffffffe6;
     backdrop-filter: blur(20px);
     transition: .5s;
     position: fixed;
