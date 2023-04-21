@@ -239,7 +239,7 @@ body::-webkit-scrollbar-thumb {
         box-shadow: rgba(163, 212, 220, 0.25) 0px 50px 100px -20px, #ccf7ff 0px 30px 60px -30px;
     }
     .about-content .image-about img {
-        margin-top: -60px;
+        margin-top: -25px;
         border-radius: 12px;
         transform: rotate(-2deg);
     
@@ -249,6 +249,8 @@ body::-webkit-scrollbar-thumb {
     }
     .img-mobile{
         display: block;
+        width: 80%;
+        margin: 2.5rem 0;
     }
 
 }
