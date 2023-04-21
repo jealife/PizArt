@@ -24,7 +24,8 @@
     border-radius: 14px;
 
 }
-a{
+
+a {
     text-decoration: none;
     color: #3c5163;
 }
@@ -82,13 +83,14 @@ a{
         /* width:100vw ; */
         flex-wrap: nowrap;
         overflow: auto;
-        margin: -1rem 0 0 0;
+        margin: -1rem 0 1rem 0;
         cursor: grab;
     }
 
-    
+
 
     .section-title {
+
         max-width: 900px;
         display: flex;
         padding: 1rem 2em 0 2rem;
@@ -99,10 +101,13 @@ a{
         height: 180px;
         width: 235px;
         object-fit: contain;
-        
+
 
     }
-    .card{
+
+    .card {
+        box-shadow: #274f6b40 0px 25px 25px -12px;
+
         width: 412px;
         gap: 12px;
     }
