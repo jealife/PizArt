@@ -2,8 +2,8 @@
     display: flex;
     flex-direction: column;
     gap: 25px;
-    width: 301px;
-    padding: 0.5rem 0.9rem 1.5rem 0.9rem;
+    width: 300px;
+    padding: 0.5rem 1rem 1.5rem 1rem;
     border-radius: 15px;
     position: relative;
     transition: .5s;
@@ -97,8 +97,13 @@ a{
     .card img {
         align-self: center;
         height: 180px;
-        width: 180px;
-        gap: 12px;
+        width: 235px;
+        object-fit: contain;
+        
 
+    }
+    .card{
+        width: 412px;
+        gap: 12px;
     }
 }
