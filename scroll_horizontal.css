@@ -37,10 +37,15 @@ a {
 
 
 .scroll-container {
-    max-width: 900px;
+
+    width: 100%;
     display: grid;
     align-items: center;
     justify-content: center;
+    padding: 0 0 2rem 0 ;
+    margin-bottom: 5rem;
+    border-radius: 0 0 200px 0;
+    box-shadow: #94aab91a 0px 50px 25px -12px;
 
 }
 
@@ -77,6 +82,35 @@ a {
     margin-top: -0.1rem;
 }
 
+.order-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.order-container h5{
+    font-weight: 800;
+    color: #ff5703;
+
+}
+.btn-buy{
+    border: none;
+    color: #fff;
+    transition: .5s;
+    border-radius: 25px;
+    padding: 0.5rem;
+    cursor: pointer;
+    border-radius: 50px;
+    width: 100px;
+    background-color: #ff894e;
+}
+.btn-buy:hover{
+    background-color: #ff671c;
+    box-shadow: #ffa476e7 0px 5px 20px;
+    border-radius: 50px;
+    width: 85px;
+}
+
 @media only screen and (max-width: 900px) {
     .scroll {
         overflow: hidden;
@@ -110,5 +144,10 @@ a {
 
         width: 412px;
         gap: 12px;
+    }
+    .scroll-container{
+        
+    border-radius: 0 0 85px 0;
+    box-shadow: #315e7e0e 0px 50px 25px 0px;
     }
 }
