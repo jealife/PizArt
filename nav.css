@@ -34,7 +34,7 @@ nav .logo span {
 
     font-weight: 600;
     font-size: 1.5rem;
-    color: #ff8a50;
+    color: #ff6b22;
 }
 
 nav .link-container {
@@ -45,7 +45,7 @@ nav .link-container {
 }
 
 nav .link-container .home {
-    color: #ff8a50;
+    color: #ff6b22;
 }
 
 .menu {
@@ -61,11 +61,11 @@ nav .link-container>a {
 }
 
 nav .link-container>a:hover {
-    color: #ff8a50;
+    color: #ff6b22;
 }
 
 nav .link-container>a:active {
-    color: #ff8a50;
+    color: #ff6b22;
 }
 
 .hamburger {
@@ -110,7 +110,7 @@ nav .link-container>a:active {
         height: 250px;
         padding: 0 15px 0 0;
         color: #fff;
-        background-color: #ff8a50;
+        background-color: #ff742e;
         transform: translate(100%);
     }
 

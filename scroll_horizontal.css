@@ -7,21 +7,26 @@
     border-radius: 15px;
     position: relative;
     transition: .5s;
-    background-color: #f2ffff;
+    background-color: #f7ffff;
+    margin-bottom: 1rem;
     box-shadow: #00000026 1.95px 1.95px 2.6px;
 }
 
 .card:hover {
-    box-shadow: #274f6b40 0px 25px 50px -12px;
+    box-shadow: #274f6b40 0px 25px 25px -12px;
 }
 
 .card img {
     align-self: center;
-    height: 280px;
-    width: 285px;
+    height: 200px;
+    width: 200px;
     object-fit: cover;
     border-radius: 14px;
 
+}
+a{
+    text-decoration: none;
+    color: #3c5163;
 }
 
 .info-container {
@@ -31,7 +36,7 @@
 
 
 .scroll-container {
-    width: 100%;
+    max-width: 900px;
     display: grid;
     align-items: center;
     justify-content: center;
@@ -39,14 +44,23 @@
 }
 
 .scroll {
-    
+
     /* height: 75vh; */
     display: flex;
     align-items: center;
     gap: 25px;
-    padding: 3.5em 2em;
+    padding: 1rem 2em 1rem 2rem;
 }
 
+.section-title {
+    max-width: 900px;
+    display: flex;
+    padding: 1.5rem 2em 0 2rem;
+}
+
+.section-title h2 {
+    font-size: 2rem;
+}
 
 .scroll::-webkit-scrollbar {
     height: 0.6rem;
@@ -57,16 +71,34 @@
     border-radius: 50px;
     background: #27436600;
 }
-.scroll-2{
-    margin-top: -2rem;
+
+.scroll-2 {
+    margin-top: -0.1rem;
 }
+
 @media only screen and (max-width: 900px) {
     .scroll {
         overflow: hidden;
         /* width:100vw ; */
         flex-wrap: nowrap;
-        gap: 25px;
         overflow: auto;
+        margin: -1rem 0 0 0;
         cursor: grab;
+    }
+
+    
+
+    .section-title {
+        max-width: 900px;
+        display: flex;
+        padding: 1rem 2em 0 2rem;
+    }
+
+    .card img {
+        align-self: center;
+        height: 180px;
+        width: 180px;
+        gap: 12px;
+
     }
 }

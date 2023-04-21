@@ -74,6 +74,7 @@ h1 {
     flex-direction: column;
 }
 
+
 .hero-container {
     width: 100%;
     display: flex;
@@ -171,7 +172,10 @@ h1 {
     justify-content: space-evenly;
 
 }
+.info-about p{
+    color: #3c5163;
 
+}
 body::-webkit-scrollbar {
     width: 0.6rem;
     background-color: #ff742e;
