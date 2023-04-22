@@ -86,7 +86,7 @@ h1 {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
-object-fit:contain;
+
 }
 
 .container {
@@ -192,6 +192,7 @@ body::-webkit-scrollbar-thumb {
 @media only screen and (max-width: 900px) {
    
     .hero-container {
+object-fit:cover !important ;
         min-height: 100vh;
     }
     .hero-content h1 {
