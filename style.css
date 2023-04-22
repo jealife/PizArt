@@ -86,6 +86,7 @@ h1 {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
+object-fit:contain;
 }
 
 .container {
